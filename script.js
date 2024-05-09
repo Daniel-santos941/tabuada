@@ -6,6 +6,7 @@ let finalresult = document.getElementById("result")
 generatorButton.addEventListener("click", function() {
     if (inputData.value === ""){
         alert("Insira um número")
+        return
     }
 
     if (inputData.value.length > 3) {
